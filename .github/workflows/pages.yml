@@ -26,7 +26,7 @@ jobs:
       - name: Configure Pages
         uses: actions/configure-pages@v5
       - name: Unpack the blog site
-        run: unzip -q site.zip
+        run: unzip -q marshal-github-site.zip
       - name: Upload the blog site
         uses: actions/upload-pages-artifact@v3
         with:
